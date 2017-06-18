@@ -1,7 +1,7 @@
 /**
  * Created by sunyanyang on 17/6/18.
  */
-let Movie = require('../model');
+let Movie = require('../model').Movie;
 let async = require('async');
 let debug = require('debug')('crawl:write');
 //负责把电影数组保存到mongodb数据库中
