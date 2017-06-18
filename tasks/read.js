@@ -24,7 +24,7 @@ module.exports = function (url, callback) {
             };
             debug(`读到电影:${movie.name}`);
             movies.push(movie);
-        })
+        });
         callback(err, movies);
     });
-}
+};
